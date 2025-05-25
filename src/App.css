@@ -1,0 +1,221 @@
+/* Olive green and off-white theme */
+:root {
+  --olive: #556b2f;
+  --olive-dark: #3e4d1a;
+  --offwhite: #f9f9f4;
+  --accent: #b7b77a;
+}
+
+/* Reset and base styles */
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: var(--offwhite);
+  color: var(--olive-dark);
+}
+
+.header {
+  background: #fff;
+  padding: 2rem 1rem 1rem 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  text-align: center;
+  border-bottom: 4px solid var(--olive);
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: var(--olive);
+  font-family: 'Montserrat', 'Segoe UI', sans-serif;
+}
+.subtitle {
+  color: var(--olive-dark);
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.buffet-highlight {
+  background: linear-gradient(120deg, #fff 60%, var(--accent) 100%);
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px rgba(85,107,47,0.07);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  border: 2px solid var(--olive);
+}
+.buffet-highlight h2 {
+  color: var(--olive);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.buffet-highlight ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.buffet-highlight li {
+  background: #fff;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 8px rgba(85,107,47,0.06);
+  padding: 0.7rem 1.2rem;
+  font-size: 1.1rem;
+  color: var(--olive-dark);
+  font-weight: 500;
+  border: 1px solid var(--accent);
+}
+.dish-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.dish-gallery img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
+  border: 2px solid var(--olive);
+}
+
+.alacarte {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  border: 1.5px solid var(--accent);
+}
+.alacarte h2 {
+  color: var(--olive-dark);
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+.alacarte p {
+  color: var(--olive);
+  font-size: 1.1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1.2rem 0 0.7rem 0;
+  text-align: center;
+  color: var(--olive-dark);
+  font-size: 1rem;
+  background: var(--offwhite);
+  border-top: 2px solid var(--accent);
+}
+
+.logo {
+  height: 60px;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.05rem;
+}
+.footer-contact a {
+  color: var(--olive-dark);
+  text-decoration: none;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.footer-social img {
+  width: 28px;
+  height: 28px;
+  filter: grayscale(0.2) brightness(0.8);
+  transition: filter 0.2s;
+}
+.footer-social img:hover {
+  filter: none;
+}
+.footer-copy {
+  color: var(--olive-dark);
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+  .buffet-highlight, .alacarte {
+    padding: 1.2rem 0.5rem;
+  }
+  .buffet-highlight ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .dish-gallery {
+    gap: 0.5rem;
+  }
+  .dish-gallery img {
+    width: 90px;
+    height: 70px;
+  }
+  main {
+    padding: 0 0.2rem;
+  }
+  .logo {
+    height: 40px;
+  }
+  .footer-contact {
+    font-size: 0.98rem;
+  }
+  .footer-social img {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.copy-tooltip {
+  margin-left: 0.5rem;
+  color: var(--olive);
+  background: #fff;
+  border: 1px solid var(--accent);
+  border-radius: 0.5em;
+  padding: 0.1em 0.6em;
+  font-size: 0.98em;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(85,107,47,0.07);
+  animation: fadeInOut 2s linear;
+}
+.copied {
+  font-weight: bold;
+  color: var(--olive);
+}
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
