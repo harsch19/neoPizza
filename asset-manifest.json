@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/neopolitan-pizza/static/css/main.cd8b0a52.css",
+    "main.js": "/neopolitan-pizza/static/js/main.45f1fd2e.js",
+    "static/js/584.e3d9b29c.chunk.js": "/neopolitan-pizza/static/js/584.e3d9b29c.chunk.js",
+    "service-worker.js": "/neopolitan-pizza/service-worker.js",
+    "index.html": "/neopolitan-pizza/index.html",
+    "main.cd8b0a52.css.map": "/neopolitan-pizza/static/css/main.cd8b0a52.css.map",
+    "main.45f1fd2e.js.map": "/neopolitan-pizza/static/js/main.45f1fd2e.js.map",
+    "584.e3d9b29c.chunk.js.map": "/neopolitan-pizza/static/js/584.e3d9b29c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8b0a52.css",
+    "static/js/main.45f1fd2e.js"
+  ]
+}
