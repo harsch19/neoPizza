@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/neopolitan-pizza/static/css/main.cd8b0a52.css",
-    "main.js": "/neopolitan-pizza/static/js/main.45f1fd2e.js",
-    "static/js/584.e3d9b29c.chunk.js": "/neopolitan-pizza/static/js/584.e3d9b29c.chunk.js",
+    "main.css": "/neopolitan-pizza/static/css/main.01b633f7.css",
+    "main.js": "/neopolitan-pizza/static/js/main.379adeaa.js",
+    "static/js/488.512a1ab4.chunk.js": "/neopolitan-pizza/static/js/488.512a1ab4.chunk.js",
+    "static/media/pizza.jpg": "/neopolitan-pizza/static/media/pizza.6281f1570110f665415d.jpg",
+    "static/media/brownie.jpg": "/neopolitan-pizza/static/media/brownie.5865c768a1ae7de1cbe7.jpg",
+    "static/media/salad.jpg": "/neopolitan-pizza/static/media/salad.cbeca8558f3fe142402a.jpg",
+    "static/media/garlic_bread.webp": "/neopolitan-pizza/static/media/garlic_bread.4922b792f2bae012f8bb.webp",
+    "static/media/chinese.jpg": "/neopolitan-pizza/static/media/chinese.c0b478b1f3b7dad4c0f3.jpg",
+    "static/media/cold_drink.jpg": "/neopolitan-pizza/static/media/cold_drink.eb840e7e4fa224c959c3.jpg",
     "service-worker.js": "/neopolitan-pizza/service-worker.js",
+    "static/media/neo_logo.jpg": "/neopolitan-pizza/static/media/neo_logo.5efc7c71da03660915ee.jpg",
+    "static/media/google-maps.png": "/neopolitan-pizza/static/media/google-maps.dc3b637d7368ffd8c203.png",
+    "static/media/phone-call.png": "/neopolitan-pizza/static/media/phone-call.d35848942c955a6232b3.png",
+    "static/media/soup.jfif": "/neopolitan-pizza/static/media/soup.d32345cc4654cef4de43.jfif",
+    "static/media/instagram.svg": "/neopolitan-pizza/static/media/instagram.91084741d108d56af3316af30168910a.svg",
+    "static/media/slick.svg": "/neopolitan-pizza/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/neopolitan-pizza/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/neopolitan-pizza/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/neopolitan-pizza/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/facebook.svg": "/neopolitan-pizza/static/media/facebook.202b9fba549450ca6ad6d6f69fa4802c.svg",
     "index.html": "/neopolitan-pizza/index.html",
-    "main.cd8b0a52.css.map": "/neopolitan-pizza/static/css/main.cd8b0a52.css.map",
-    "main.45f1fd2e.js.map": "/neopolitan-pizza/static/js/main.45f1fd2e.js.map",
-    "584.e3d9b29c.chunk.js.map": "/neopolitan-pizza/static/js/584.e3d9b29c.chunk.js.map"
+    "main.01b633f7.css.map": "/neopolitan-pizza/static/css/main.01b633f7.css.map",
+    "main.379adeaa.js.map": "/neopolitan-pizza/static/js/main.379adeaa.js.map",
+    "488.512a1ab4.chunk.js.map": "/neopolitan-pizza/static/js/488.512a1ab4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd8b0a52.css",
-    "static/js/main.45f1fd2e.js"
+    "static/css/main.01b633f7.css",
+    "static/js/main.379adeaa.js"
   ]
 }
