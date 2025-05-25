@@ -149,13 +149,13 @@ function App() {
           <div className="buffet-pricing">
             <div className="buffet-pricing-left">
               <h3>Afternoon Prices</h3>
-              <p>Adults: ₹250</p>
-              <p>Kids: ₹200</p>
+              <p>Adults: ₹359</p>
+              <p>Kids: ₹259</p>
             </div>
             <div className="buffet-pricing-right">
               <h3>Evening Prices</h3>
-              <p>Adults: ₹350</p>
-              <p>Kids: ₹300</p>
+              <p>Adults: ₹399</p>
+              <p>Kids: ₹299</p>
             </div>
           </div>
           <Slider {...sliderSettings} className="buffet-carousel">
@@ -201,8 +201,9 @@ function App() {
           <div>
           <a href="https://maps.app.goo.gl/dkQhnwaYtK8Eczia9" target="_blank" rel="noopener noreferrer">
             <img src={map} alt="Google Maps" width="24" height="24" style={{ marginRight: '8px', verticalAlign: 'middle' }} />
-          </a>
             <b>Address:</b> Shop No :1-2, Golden Venture, Gurukrupa Housing Society, Near Jagtap dairy Chowk, Wakad, Pune
+          </a>
+          
           </div>
           <div>
             <b>Contact:</b>{' '}
