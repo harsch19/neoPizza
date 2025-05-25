@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/neopolitan-pizza/static/css/main.01b633f7.css",
-    "main.js": "/neopolitan-pizza/static/js/main.379adeaa.js",
+    "main.js": "/neopolitan-pizza/static/js/main.54da3a94.js",
     "static/js/488.512a1ab4.chunk.js": "/neopolitan-pizza/static/js/488.512a1ab4.chunk.js",
     "static/media/pizza.jpg": "/neopolitan-pizza/static/media/pizza.6281f1570110f665415d.jpg",
     "static/media/brownie.jpg": "/neopolitan-pizza/static/media/brownie.5865c768a1ae7de1cbe7.jpg",
@@ -22,11 +22,11 @@
     "static/media/facebook.svg": "/neopolitan-pizza/static/media/facebook.202b9fba549450ca6ad6d6f69fa4802c.svg",
     "index.html": "/neopolitan-pizza/index.html",
     "main.01b633f7.css.map": "/neopolitan-pizza/static/css/main.01b633f7.css.map",
-    "main.379adeaa.js.map": "/neopolitan-pizza/static/js/main.379adeaa.js.map",
+    "main.54da3a94.js.map": "/neopolitan-pizza/static/js/main.54da3a94.js.map",
     "488.512a1ab4.chunk.js.map": "/neopolitan-pizza/static/js/488.512a1ab4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01b633f7.css",
-    "static/js/main.379adeaa.js"
+    "static/js/main.54da3a94.js"
   ]
 }
